@@ -6,7 +6,7 @@ function createMainWindow() {
     const mainWindow = new BrowserWindow({
         title: "Pixel Pomodoro",
         width: 400,
-        height: 600,
+        height: 400,
     });
 
     const startUrl = url.format({
